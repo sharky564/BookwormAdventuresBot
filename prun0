@@ -1,0 +1,16 @@
+         11571556 function calls (11570556 primitive calls) in 201.932 seconds
+
+   Ordered by: cumulative time
+   List reduced from 45 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  201.932  201.932 {built-in method builtins.exec}
+        1    0.000    0.000  201.932  201.932 <string>:2(<module>)
+   1001/1    0.087    0.000  201.893  201.893 1063767087.py:6(monte_carlo_search)
+     6002  199.482    0.033  201.447    0.034 utils.py:122(pos_words2)
+   939985    0.725    0.000    1.336    0.000 utils.py:113(word_score)
+  8171883    0.514    0.000    0.514    0.000 {built-in method builtins.len}
+   939985    0.453    0.000    0.453    0.000 {built-in method builtins.sorted}
+     6000    0.029    0.000    0.385    0.000 utils.py:146(play)
+    12000    0.111    0.000    0.345    0.000 utils.py:43(rack_generation)
+    52820    0.144    0.000    0.204    0.000 random.py:386(choices)
