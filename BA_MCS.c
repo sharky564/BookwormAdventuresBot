@@ -414,7 +414,7 @@ word_score monteCarloSearch(
 }
 
 
-/*reads the ba1-dictionary-playable.txt file and outputs the subanagrams of a random rack*/
+// reads the ba1-dictionary-playable.txt file, generate a random rack, and print the best word to play
 int main() {
     srand(time(NULL)); // seed the random number generator
 

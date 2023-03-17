@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "limits": "cpp",
+        "cctype": "c"
+    },
+    "python.analysis.typeCheckingMode": "off"
+}
